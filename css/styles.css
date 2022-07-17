@@ -1,0 +1,48 @@
+/*@import : @import url('https://fonts.googleapis.com/css?family=Open+Sans'); 'Open Sans'*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+body {
+    background-color: #FAF9F6;
+    font-family: 'Lora', sans-serif;
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: calc(3em + 1vw);
+}
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: calc(1em + 1vw);
+}
+
+p {
+    font-family: 'Lora', sans-serif;
+    font-size: calc(0.5em + 0.95vw);
+}
+
+
+ul{
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    -webkit-column-width: 400px;
+    -moz-column-width: 400px;
+    column-width: 400px;
+    list-style: none;
+    line-height: 20pt;
+
+}
+
+a {
+    color: blue;
+}
