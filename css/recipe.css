@@ -46,3 +46,7 @@ img {
     max-width: 950px;
     padding-left: 10px;
 }
+
+a {
+    color: blue;
+}
